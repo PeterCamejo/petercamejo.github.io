@@ -1,0 +1,102 @@
+body{
+        height: 100vh;
+        /*background-image:url("bg.jpg");*/
+        background-size: cover;
+        background-color: #1d1d1d;
+        color: #06fdd8;
+        /*color: #f4f2f2;*/
+}
+
+input, textarea{
+        color: #06fdd8 !important ;
+}
+
+#landing-text h1{
+        font-family:  Helvetica;
+        font-size: 59px;
+        letter-spacing: 0.3em;
+        color: #f4f2f2;
+}
+
+#landing-text h4{
+        color: #f4f2f2;
+}
+
+#landing-text button{
+        font-family: Helvetica;
+        background-color: #f4f2f2;
+}
+
+#landing-text button:hover{
+        background-color: transparent;
+        color:#f4f2f2;
+        border: 2px solid #f4f2f2 ;
+}
+.col, .col-12, .col-md-6{
+	text-align:  center;
+        margin-bottom: 3%;
+}
+
+
+.input-container{
+        background-color: ;
+}
+
+.teal-background{
+        background-color: #1d1d1d  ;
+}
+
+.wrapper{
+        display: inline-block;
+}
+
+/* Underline active navbar element */
+.navbar-light .navbar-nav .active{
+	border-bottom: 3px solid #06fdd8;
+        color: #06fdd8;
+}
+
+.nav-text{
+         color: #06fdd8
+}
+
+.link-button-styling{
+        background-color: #f4f2f2;
+        border: 2px solid #06fdd8;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+}
+.link-button-styling:hover{
+        background-color:#06fdd8 ;
+        color: #1d1d1d ;
+}
+
+.link-styling{
+        text-decoration: none;
+        color: #1d1d1d;
+        
+}
+
+#landingVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#landing-section{
+        position: relative;
+}
+
+#contact-form-button{
+        background-color:#06fdd8 ;
+        color: #414141;
+}
+
+#contact-form-button:hover{
+        background-color: #1d1d1d;
+        color:  #06fdd8;
+        border: 2px solid #06fdd8;
+}
