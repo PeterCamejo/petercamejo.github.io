@@ -51,7 +51,7 @@ input, textarea{
 }
 
 /* Underline active navbar element */
-.navbar-light .navbar-nav .active{
+.navbar-dark .navbar-nav .active{
 	border-bottom: 3px solid #06fdd8;
         color: #06fdd8;
 }
