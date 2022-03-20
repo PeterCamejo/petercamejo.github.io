@@ -37,6 +37,13 @@ input, textarea{
         margin-bottom: 3%;
 }
 
+.portfolio-image{
+        transition: transform .2s;
+}
+
+.portfolio-image:hover{
+        transform:  scale(1.05);
+}
 
 .input-container{
         background-color: ;
