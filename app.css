@@ -1,37 +1,18 @@
 body{
         height: 100vh;
-        /*background-image:url("bg.jpg");*/
         background-size: cover;
         background-color: #1d1d1d;
         color: #06fdd8;
-        /*color: #f4f2f2;*/
 }
 
 input, textarea{
         color: #06fdd8 !important ;
 }
 
-#landing-text h1{
-        font-family:  Helvetica;
-        font-size: 59px;
-        letter-spacing: 0.3em;
-        color: #f4f2f2;
+.card{
+        opacity: 0;
 }
 
-#landing-text h4{
-        color: #f4f2f2;
-}
-
-#landing-text button{
-        font-family: Helvetica;
-        background-color: #f4f2f2;
-}
-
-#landing-text button:hover{
-        background-color: transparent;
-        color:#f4f2f2;
-        border: 2px solid #f4f2f2 ;
-}
 .col, .col-12, .col-md-6{
 	text-align:  center;
         margin-bottom: 3%;
@@ -85,6 +66,15 @@ input, textarea{
         
 }
 
+.link-styling-teal{
+        text-decoration: none;
+        color: #06fdd8 ;
+}
+
+.link-styling-teal:hover{
+        color: #06fdd8;
+}
+
 #landingVideo {
   position: fixed;
   right: 0;
@@ -107,3 +97,26 @@ input, textarea{
         color:  #06fdd8;
         border: 2px solid #06fdd8;
 }
+
+#landing-text h1{
+        font-family:  Helvetica;
+        font-size: 59px;
+        letter-spacing: 0.3em;
+        color: #f4f2f2;
+}
+
+#landing-text h4{
+        color: #f4f2f2;
+}
+
+#landing-text button{
+        font-family: Helvetica;
+        background-color: #f4f2f2;
+}
+
+#landing-text button:hover{
+        background-color: transparent;
+        color:#f4f2f2;
+        border: 2px solid #f4f2f2 ;
+}
+
